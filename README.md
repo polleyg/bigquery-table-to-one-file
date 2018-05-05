@@ -1,5 +1,5 @@
 # bigquery-table-to-one-file
-Using Cloud Dataflow, this trivial Java application reads a table in BigQuery, and turns it into one file in GCS (GZIP compressed format). Why? Because currently BigQuery only support unsharded exports of under 1 GB.
+Using Google Cloud Dataflow, this trivial Java application reads a table in BigQuery, and turns it into one file in GCS (GZIP compressed format). Why? Because currently BigQuery only support unsharded exports of under 1 GB.
 
 https://cloud.google.com/bigquery/docs/exporting-data
 https://cloud.google.com/dataflow/
